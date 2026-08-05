@@ -189,7 +189,7 @@ jobs:
               "description": "Ejecuta notebook ingest_constructors",
               "notebook_task": {
                 "notebook_path": "/smartdatayml3/2.Ingest_Constructors",
-                "source": "WORKSPACE".
+                "source": "WORKSPACE",
                 "base_parameters": {
                   "container": "raw",
                   "catalogo": "catalog_au",
