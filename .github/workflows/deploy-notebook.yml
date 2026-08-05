@@ -130,7 +130,7 @@ jobs:
               "task_key": "prepambiente",
               "description": "Ejecuta notebook prepambiente",
               "notebook_task": {
-                "notebook_path": "/smartdatayml2/1.Preparacion_Ambiente",
+                "notebook_path": "/smartdatayml3/1.Preparacion_Ambiente",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "storageName": "adlsmartdata1607"
@@ -144,7 +144,7 @@ jobs:
               "task_key": "ingest_circuits",
               "description": "Ejecuta notebook ingest_circuits",
               "notebook_task": {
-                "notebook_path": "/smartdatayml2/2.Ingest_circuits_data",
+                "notebook_path": "/smartdatayml3/2.Ingest_circuits_data",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "container": "raw",
@@ -166,7 +166,7 @@ jobs:
               "task_key": "ingest_racing",
               "description": "Ejecuta notebook ingest_racing",
               "notebook_task": {
-                "notebook_path": "/smartdatayml2/2.Ingest_racing_data",
+                "notebook_path": "/smartdatayml3/2.Ingest_racing_data",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "container": "raw",
@@ -188,7 +188,7 @@ jobs:
               "task_key": "ingest_constructors",
               "description": "Ejecuta notebook ingest_constructors",
               "notebook_task": {
-                "notebook_path": "/smartdatayml2/2.Ingest_Constructors",
+                "notebook_path": "/smartdatayml3/2.Ingest_Constructors",
                 "source": "WORKSPACE".
                 "base_parameters": {
                   "container": "raw",
@@ -210,7 +210,7 @@ jobs:
               "task_key": "transform",
               "description": "Ejecuta notebook transform",
               "notebook_task": {
-                "notebook_path": "/smartdatayml2/3.Transform",
+                "notebook_path": "/smartdatayml3/3.Transform",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "catalogo": "catalog_au",
@@ -237,7 +237,7 @@ jobs:
               "task_key": "load",
               "description": "Ejecuta notebook load",
               "notebook_task": {
-                "notebook_path": "/smartdatayml2/4.Load",
+                "notebook_path": "/smartdatayml3/4.Load",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "catalogo": "catalog_au",
@@ -258,7 +258,7 @@ jobs:
               "task_key": "grants",
               "description": "Ejecuta notebook grants",
               "notebook_task": {
-                "notebook_path": "/smartdatayml2/5.Grants_Medallion",
+                "notebook_path": "/smartdatayml3/5.Grants_Medallion",
                 "source": "WORKSPACE"
               },
               "existing_cluster_id": "$CLUSTER_ID",
